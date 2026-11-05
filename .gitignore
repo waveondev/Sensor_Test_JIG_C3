@@ -1,0 +1,13 @@
+# 1. 회로도 및 문서 폴더 제외
+/회로도/
+
+# 2. 모든 백업 파일(.bak) 제외
+*.bak
+
+# 3. ESP-IDF 빌드 산출물 및 임시 파일 제외
+build/
+sdkconfig.old
+
+# 4. VS Code 캐시 폴더 제외
+.vscode/
+.svn/
